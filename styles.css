@@ -3,24 +3,24 @@ html {
   }
 
   body {
-      font-family: 'Stick+No+Bills';
+      font-family: 'Josefin Sans', sans-serif;
       color: white;
       text-align: center;
       font-size: 22px;
   }
 
   header {
+      display: block;
       height: 30rem;
   }
 
   header h1 {
-      font-family: 'Orbitron';
       color: white;
       text-align: center;
       margin-top: 10rem;
       padding: 2rem;
       background-color: rgba(0, 0, 0, 0.6);
-      margin-block
+      
   }
 
   .navbar.container {
@@ -31,7 +31,6 @@ html {
       padding: 0;
       overflow: hidden;
       background-color: rgba(0, 0, 0, 0.6);
-      background
   }
 
   .navbar {
