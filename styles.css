@@ -5,13 +5,49 @@ html {
   body {
       font-family: 'Josefin Sans', sans-serif;
       color: white;
-      text-align: center;
       font-size: 22px;
   }
 
+  /*Styling for the navigation bar at the top of the page*/
+
+  .navbar.container {
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar {
+    justify-content: space-between;
+}
+
+.navbar a {
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: hotpink;
+    text-decoration: none;    
+}
+
+a:hover {
+    color:yellow;
+    text-decoration: none;  
+}
+
+
+/*Styling for the header of the website which reads "Rice Village Nerd Club*/
+
   header {
       display: block;
-      height: 30rem;
+      height: 15rem;
   }
 
   header h1 {
@@ -23,50 +59,17 @@ html {
       
   }
 
-  .navbar.container {
-      display: flex;
-      flex-flow: row wrap;
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: rgba(0, 0, 0, 0.6);
-  }
+  /*Styling for the about section*/
 
-  .navbar {
-      justify-content: center;
-  }
-
-  .navbar a {
-      display: block;
-      padding: 14px 16px;
-      text-align: center;
-      color: white;
-      text-decoration: none;
-  }
-
-  a:visited {
-      color: hotpink;
-      text-decoration: none;    
-  }
-
-  a:hover {
-      color:yellow;
-      text-decoration: none;  
-  }
-
-  #vision-container .content {
-      display: flex;
-      flex-flow: column wrap;
-      justify-content: center;
+  #summary {
+      margin-left: 1rem;
+      margin-bottom: 5rem;
   }
 
 
-  #product-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    align-items: center;
+  #founding-members {
+   margin-left: 1rem;
+   margin-top: 5rem;
 }
 
   #services-container {
